@@ -5,7 +5,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import {StoreModule} from '@ngrx/store';
-import {reducers} from './store/store';
+import {reducers} from "./store/ReducerStore";
 
 @NgModule({
   declarations: [
